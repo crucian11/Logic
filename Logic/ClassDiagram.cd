@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Logic.EBrackets">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAA=</HashCode>
+      <FileName>EParts\EBrackets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.EOperand">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAgAAAAAAAAAAAACAAAAAQAAAAQAA=</HashCode>
+      <FileName>EParts\EOperand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.EOperation">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAA=</HashCode>
+      <FileName>EParts\EOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.ESeparateSymbol">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAQAA=</HashCode>
+      <FileName>EParts\ESeparateSymbol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.ExpressionPart" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAIAAAAAAAAQAA=</HashCode>
+      <FileName>EParts\ExpressionPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.LogicExpression">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAQAAAEgAAAIAAAAQAAAAgAAgCkAQAAAAA=</HashCode>
+      <FileName>LogicExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.LogicSymbols">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAQAAAAAAgIAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>LogicSymbols.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.TruthTable">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>TruthTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
