@@ -1,2 +1,2 @@
 # Logic
-Logic library provides convenient way to represent logic expression. It also allows you to do basic operations with logic expression(generating a truth table, find solution with given tuple of values)
+Logic library provides a convenient way of representing logic expressions. It also allows you to perform basic operations with logic expressions(generate a truth table, find the solution with a given tuple of values)
