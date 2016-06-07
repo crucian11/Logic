@@ -9,7 +9,7 @@ Note that you can use either a set of LogicSymbols constants or raw unicode symb
 ```c#
 LogicExpression expression2 = new LogicExpression("p∧q→r");
 ```
-There are four operations supported in this library:
+There are four operations supported by this library:
 - conjunction (LogicSymbols.AND or \u2227 unicode symbol);
 - disjunction (LogicSymbols.OR or \u2227 unicode symbol);
 - implication (LogicSymbols.IMP or \u2227 unicode symbol);
