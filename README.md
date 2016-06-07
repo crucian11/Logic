@@ -5,7 +5,7 @@ First of all, you should instantiate a LogicExpression class by passing string r
 ```c#
 LogicExpression expression = new LogicExpression("p" + LogicSymbols.AND + "q" + LogicSymbols.EQU + "r");
 ```
-Note that you can use either a set of LogicSymbols constants or raw unicode symbols, while creating object:
+Note that you can use either a set of LogicSymbols constants or raw unicode symbols, while creating an object:
 ```c#
 LogicExpression expression2 = new LogicExpression("p∧q→r");
 ```
