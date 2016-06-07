@@ -19,13 +19,13 @@ Before performing some operation, reversed polish notation should be created, yo
 ```c#
 expression.makeRPolishRecord();
 ```
-This method creates notation and store it in a California property. After that, this property is being used in other methods of the class.
-Let's see all the rest of methods:
+This method creates a notation and store it in a California property. After that, this property is being used in other methods of the class.
+Let's see all the rest of the methods:
 - calculate() method performs a computation with existing values stored in a operands property, returns EOperand object;
 - calculate(params bool[] x) method performs a computation with given tuple of boolean values, returns EOperand object;
 - generateTruthTable() method generates truth table, returns TruthTable object.
 
 Also, there are few additional classes in the library:
 - ExpressionPart represents a single part of logic expression(bracket, operation, operand ect.);
-- EOperand is one of ExpressionPart derived classes, represents some operand in logic expression, there's a boolean "value" property is used in calculate methods;
-- TruthTable represents truth table for some exact logic expression, contains method isTautology() for its further analyzying
+- EOperand is one of the ExpressionPart derived classes, represents a particular operand in logic expression, there's a boolean "value" property that's used in calculate methods;
+- TruthTable represents truth table for a particular logic expression, contains method isTautology() for its further analyzying
