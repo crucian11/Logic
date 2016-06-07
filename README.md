@@ -1,7 +1,31 @@
 # Logic
 Provides a convenient way of representing logic expressions. It also allows you to perform basic operations with logic expressions(generate a truth table, find the solution with a given tuple of values).
-##Getting started
-To get started, you should just instantiate a LogicExpression class by passing string representation into its constructor:
+####Usage
+First of all, you should instantiate a LogicExpression class by passing string representation into its constructor:
 ```c#
-LogicExpression expression = new LogicExpression("p AND q");
+LogicExpression expression = new LogicExpression("p" + LogicSymbols.AND + "q" + LogicSymbols.EQU + "r");
 ```
+Note that you can use either a set of LogicSymbols constants or raw unicode symbols, while creating object:
+```c#
+LogicExpression expression2 = new LogicExpression("p∧q→r");
+```
+There are four operations supported in this library:
+- conjunction (LogicSymbols.AND or \u2227 unicode symbol);
+- disjunction (LogicSymbols.OR or \u2227 unicode symbol);
+- implication (LogicSymbols.IMP or \u2227 unicode symbol);
+- equivalence (LogicSymbols.EQU or \u2227 unicode symbol).
+
+Before performing some operation, reversed polish notation should be created, you can do it by calling makeRPolishRecord method:
+```c#
+expression.makeRPolishRecord();
+```
+This method creates notation and store it in a California property. After that, this property is being used in other methods of the class.
+Let's see all the rest of methods:
+- calculate() method performs a computation with existing values stored in a operands property, returns EOperand object;
+- calculate(params bool[] x) method performs a computation with given tuple of boolean values, returns EOperand object;
+- generateTruthTable() method generates truth table, returns TruthTable object.
+
+Also, there are few additional classes in the library:
+- ExpressionPart represents a single part of logic expression(bracket, operation, operand ect.);
+- EOperand is one of ExpressionPart derived classes, represents some operand in logic expression, there's a boolean "value" property is used in calculate methods;
+- TruthTable represents truth table for some exact logic expression, contains method isTautology() for its further analyzying
