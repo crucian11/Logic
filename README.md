@@ -21,9 +21,9 @@ expression.makeRPolishRecord();
 ```
 This method creates a notation and store it in a California property. After that, this property is being used in other methods of the class.
 Let's see all the rest of the methods:
-- calculate() method performs a computation with existing values stored in a operands property, returns EOperand object;
-- calculate(params bool[] x) method performs a computation with given tuple of boolean values, returns EOperand object;
-- generateTruthTable() method generates truth table, returns TruthTable object.
+- `calculate()` method performs a computation with existing values stored in a operands property, returns EOperand object;
+- `calculate(params bool[] x)` method performs a computation with given tuple of boolean values, returns EOperand object;
+- `generateTruthTable()` method generates truth table, returns TruthTable object.
 
 Also, there are few additional classes in the library:
 - ExpressionPart represents a single part of logic expression(bracket, operation, operand ect.);
