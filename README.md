@@ -1,5 +1,5 @@
 # Logic
-Provides a convenient way of representing logic expressions. It also allows you to perform basic operations with logic expressions(generate a truth table, find the solution with a given tuple of values). Additionally, this library contains generator of logic expressions. LEGenerator class includes methods for generation of a random logic expression(represented by LogicExpression object), equivalent and not equivalent to a particular expression.
+Provides a convenient way of representing logic expressions. It also allows you to perform basic operations with logic expressions(generate a truth table, find the solution with a given tuple of values). Additionally, this library features include a generation of a random logic expression(represented by LogicExpression object), equivalent and not equivalent to a particular expression.
 
 ##Usage
 ####LogicExpression class
