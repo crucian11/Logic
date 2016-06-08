@@ -44,6 +44,7 @@
     <Compile Include="EParts\EOperation.cs" />
     <Compile Include="EParts\ESeparateSymbol.cs" />
     <Compile Include="EParts\ExpressionPart.cs" />
+    <Compile Include="LEGenerator.cs" />
     <Compile Include="LogicExpression.cs" />
     <Compile Include="LogicSymbols.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
