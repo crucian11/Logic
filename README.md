@@ -1,5 +1,5 @@
 # Logic
-Provides a convenient way of representing logic expressions. It also allows you to perform basic operations with logic expressions(generate a truth table, find the solution with a given tuple of values). Additionally, this library features include a generation of a random logic expression(represented by LogicExpression object), equivalent and not equivalent to a particular expression.
+Logic library provides a convenient way of representing a logic expression. It also allows you to perform basic operations with a logic expression(generate a truth table, find the solution with a given tuple of values). Additionally, the library features include a generation of a random logic expression, equivalent and not equivalent to a particular expression.
 
 ##Usage
 ####LogicExpression class
@@ -21,9 +21,9 @@ Before performing some operation, a reversed polish notation should be created, 
 ```c#
 expression.makeRPolishRecord();
 ```
-This method creates a notation and store it in a California property. After that, this property is being used in other methods of the class.
+This method creates a notation and stores it in a California property. After that, this property is used in other methods of the class.
 Let's see all the rest of the methods:
-- `EOperand calculate()` method performs a computation with existing values stored in a operands property;
+- `EOperand calculate()` method performs a computation with existing values stored in a `operands` property;
 - `EOperand calculate(params bool[] x)` method performs a computation with given tuple of boolean values;
 - `TruthTable generateTruthTable()` method generates a truth table.
 
@@ -37,9 +37,9 @@ LEGenerator class has an interface that's similar to a Random class. There are f
 - `LogicExpression next(int maxVarsNumber)` does as same as the `next` method, but it allows you to limit a max amount of variables;
 - `LogicExpression nextEqual(LogicExpression exp)` alters the expression using propositional logic transformation rules;
 - `LogicExpression nextNotEqual(LogicExpression exp)` generates a not equal expression to the passed one;
-- `LogicExpression nextNotEqual(LogicExpression exp, int maxVarsNumber)` does as same as the `nextNotEqual` method with limitation of a max amount of variables.
+- `LogicExpression nextNotEqual(LogicExpression exp, int maxVarsNumber)` does the same as the `nextNotEqual` method with limitation of a max amount of variables.
 
 Also, there are few additional classes in the library:
-- ExpressionPart represents a single part of logic expression(bracket, operation, operand ect.);
+- ExpressionPart represents a single part of a logic expression(bracket, operation, operand ect.);
 - EOperand is one of the ExpressionPart derived classes, represents a particular operand in logic expression, there's a boolean "value" property that's used in calculate methods;
 - TruthTable represents truth table for a particular logic expression, contains method isTautology() for its further analyzying
