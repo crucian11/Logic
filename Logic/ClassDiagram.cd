@@ -10,7 +10,7 @@
   <Class Name="Logic.EOperand">
     <Position X="8.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAAAgAAAAAAAAAAAACAAAAAQAAAAQAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAAAAAgAAAAEAAAAAAACAAAAAQAAAAQAA=</HashCode>
       <FileName>EParts\EOperand.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -31,21 +31,21 @@
   <Class Name="Logic.ExpressionPart" Collapsed="true">
     <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAIAAAAAAAAQAA=</HashCode>
+      <HashCode>AAAAAAAAAAQAAAAEgAAAAAAAAAAAAAAIAAAAAAAAQAA=</HashCode>
       <FileName>EParts\ExpressionPart.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.LogicExpression">
     <Position X="9.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AMAAAAAAAAAQAAAEgAAAIAAAAQAAAAgAAgCkAQAAAAA=</HashCode>
+      <HashCode>AMAAAAAAAAAQAAAEgAAAIAAAAQAAAAgAAgAkAQAAAAA=</HashCode>
       <FileName>LogicExpression.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Logic.LogicSymbols">
     <Position X="7.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAAAQAAAAAAgIAAAAAAAAEAAAAAA=</HashCode>
+      <HashCode>AACAAAAAACAAAAAAAAQQAAAAAAgIAAAAAAAAEAIAAAA=</HashCode>
       <FileName>LogicSymbols.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -54,6 +54,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAgAAA=</HashCode>
       <FileName>TruthTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logic.LEGenerator">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gRAAQAMAAAAAAACAAgECSAAAAAAAAAAAQAABAQJAAAA=</HashCode>
+      <FileName>LEGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
