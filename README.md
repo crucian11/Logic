@@ -42,4 +42,4 @@ LEGenerator class has an interface that's similar to a Random class. There are f
 Also, there are few additional classes in the library:
 - ExpressionPart represents a single part of a logic expression(bracket, operation, operand ect.);
 - EOperand is one of the ExpressionPart derived classes, represents a particular operand in logic expression, there's a boolean "value" property that's used in calculate methods;
-- TruthTable represents truth table for a particular logic expression, contains method isTautology() for its further analyzying
+- TruthTable represents truth table for a particular logic expression, contains method isTautology() for its further analyzying.
